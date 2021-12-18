@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="kariruhon.css">
+    <title>Kariruhon</title>
 </head>
 <body>
-
-a
-
-
-
-
-
-
-
-
-    
+    <header>
+        <div class="container">
+            <div class="header-left">
+              <img class="logo" src="tiger.jpeg" width="50">
+            </div>
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="header-right">
+              <a href="#">Lessons</a>
+              <a href="#">Sign in</a>
+              <a href="#" class="login">Log in</a>
+            </div>
+          </div>
+    </header>
 </body>
 </html>
