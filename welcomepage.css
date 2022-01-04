@@ -1,19 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-    background: #efefef;
     font-size: 16px;
-    color: #777;
-    font-family: sans-serif;
+    color: #55acee;
+    font-family: arial;
     font-weight: 300;
+    background: url(letter-bg.jpg) no-repeat;
+    background-size: 120%;
+    
 }
 
 #login-box {
     position: relative;
-    margin: 5% auto;
-    height: 400px;
+    margin: 11% auto;
+    float: right;
+    height: 500px;
     width: 600px;
-    background: #fff;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 6.);
 }
 .left-box{
@@ -24,11 +28,14 @@ body{
     padding: 40px;
     width: 300px;
     height: 400px;
+    
 }
 h1{
     margin: 0 0 20px 0;
+    text-align: center;
     font-weight: 300;
     font-size : 28px;
+   
 }
 input[type="text"],
 input[type="password"]{
@@ -40,7 +47,8 @@ input[type="password"]{
     height: 32px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 2px solid grey;
+    background-color: rgba(0,0,0,0.1);
     font-family: sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -71,7 +79,7 @@ input[type="submit"]:focus{
     left: 280px;
     width: 40px;
     height: 40px;
-    background:#efefef;
+    color:#55acee;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0,0,0,0.6);
     line-height: 40px;
@@ -89,15 +97,17 @@ input[type="submit"]:focus{
     padding: 40px;
     width: 300px;
     height: 400px;
-    background-image: url(img.jpg);
+   
     background-size: cover;
     background-position: center;
 }
 .right-box .signinwith{
     display: block;
     margin-bottom: 40px;
+    margin-top: 40px;
     font-size: 28px;
-    color: #fff;
+    background-color: rgba(0,0,0,0.1);
+    padding: 11px;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 }
@@ -106,7 +116,7 @@ button{
     width: 220px;
     height: 36px;
     border: none;
-    border-radius: 2px;
+    border-radius: 6px;
     color: #fff;
     font-family: sans-serif;
     font-weight:500;
@@ -115,10 +125,14 @@ button{
 }
 .facebook{
     background: #32508e;
+   
+    position: center;
 }
 .twitter{
-    background: #55acee;
+    background: #dd4b39;
+   
 }
 .google{
     background: #dd4b39;
+    
 }
