@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doyan Baca</title>
-    <link rel="stylesheet" href="gaya.css">
+    <link rel="stylesheet" href="welcomepage.css">
 </head>
 <body>
-    
 
+  <div class="email">
+    <label for="mailInput" class="form-label">Username</label>
+    <input type="text" autocomplete="off" class="form-control" id="mailInput"
+        placeholder="Username Anda">
+  </div>
+  <div class="password">
+    <label for="passInput" class="col-sm-2 col-form-label">Password</label>
+    <input type="password" class="form-control" id="passInput" placeholder="Password Anda">
+  </div>
+  </div>
+  <div class="lgin">
+  <p id="slh" style="padding-right: 250px; display: none; font-size:15px" class="text-danger animate_animated animate_shakeX salah">Password Salah!</p>
+  <button onclick="login()" type="button" class="btn btn-danger" id="btnLogin">LOGIN</button>
+
+</div>
+  </div>
     <div id="login-box">
     <div class="left-box">
         <h1>Daftar</h1>
@@ -22,15 +37,17 @@
 
     <div class="right-box">
         <span class="signinwith"></span>
-        <button class="Sosial facebook">Datar menggunakan Facebook</button>
-        <button class="Sosial google">Datar menggunakan Twitter</button>
-        <button class="Sosial facebook">Daftar menggunakan Google+</button>
+        <div class="sosmed">
+          <button class="facebook">Datar menggunakan Facebook</button>
+          <button class="twitter">Datar menggunakan Twitter</button>
+          <button class="google">Daftar menggunakan Google+</button>
+        </div>
     </div>
 
     <div class="or"> Atau </div>
 
+    <script type="text/javascript"></script>
+    <Script src="style.js"></Script>
 
-
-<Script src="style.js"></Script>
 </body>
 </html>
