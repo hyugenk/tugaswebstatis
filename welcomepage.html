@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doyan Baca</title>
+
+    <!-- my fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <title>Canbaku</title>
     <link rel="stylesheet" href="welcomepage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>  
-
-  <div class="ps-4 pt-5">
-    <button class="btn btn-outline-danger btn-sm text-center animate__animated animate__heartBeat"
-    type="button" style="padding-left: 20px;padding-right: 20px;margin-left: 10px;"
-    data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</button>
-  </div>
-  
-
-
+<body>
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
           <div class="modal-content">
@@ -30,8 +34,8 @@
                       <i class="fas fa-info-circle text-warning"></i>
                       &nbsp; &nbsp;
                       <div style="font-size: 13px;">
-                          username: administrator<br>
-                          password: sudo123
+                          Username: admin<br>
+                          Password: adminpass
                       </div>
                   </div>
                   <div class="mb-3">
@@ -45,27 +49,37 @@
                   </div>
               </div>
               <div class="modal-footer">
-                  <p id="slh" style="padding-right: 250px; display: none; font-size:15px" class="text-danger animate__animated animate__shakeX salah">Password Salah!</p>
+                  <p id="slh" style="padding-right: 350px;display: none; font-size: 15px" class="text-danger animate__animated animate__shakeX salah">Password Salah!</p>
                   <button onclick="login()" type="button" class="btn btn-danger" id="btnLogin">LOGIN</button>
               </div>
           </div>
       </div>
     </div>
-
+    <div class="header">
+      <img src="media/canbaku4.png" style="position:absolute;width:50px; margin-left: 100px; margin-top:5px">
+      <h1>CANBAKU</h1>
+    </div>
+    <div class="heading-center">
+      <h1>Lets explore <br>the world</h1>
+      <h3>Book favorite places all over <br>the world and stars exploring</h3>
+      <div class="ps-4 pt-5">
+        <button class="btn btn-outline-danger btn-sm text-center animate__animated animate__heartBeat"
+        type="button" style="padding-left: 20px;padding-right: 20px;margin-left: 10px; margin-bottom: 10px; color: white; background-color: red; width: 250px; height: 50px;font-size:25px; border-radius:15px; box-shadow: 0px 2px 2px 2px" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</button>
+      </div>
+    </div>
 </div>
   </div>
     <div id="login-box">
       <div class="left-box">
-        <h1>Daftar</h1>
+        <h1>Register</h1>
         <input type="text" name="username" placeholder="Nama lengkap">
         <input type="text" name="email" placeholder="Email">
         <input type="password" name="password" placeholder="Password">
-        <input type="password" name="password" placeholder=" Re Password">
+        <input type="password" name="password" placeholder="Re Password">
         <a href="beranda.html"><input type="submit" name = "signup-button" value = "Daftar"></a>
     </div>
 
     <div class="right-box">
-        <span class="signinwith"></span>
         <div class="sosmed">
           <a href="http://facebook.com" target="_blank"><button class="facebook">Datar menggunakan Facebook</button></a>
           <a href="http://twitter.com" target="_blank"><button class="twitter">Datar menggunakan Twitter</button></a>
