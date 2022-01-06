@@ -5,8 +5,8 @@ body{
     color: #55acee;
     font-family: arial;
     font-weight: 300;
-    background: url("bg.png") no-repeat;
-    background-size: cover;
+    background: url("bg.jpeg") no-repeat;
+    background-size: 110%;
 }
 
 
@@ -14,9 +14,9 @@ body{
     position: relative;
     margin: 11% auto;
     float: right;
-    height: 280px;
+    height: 400px;
     width: 600px;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: rgba(0,0,0,0.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 6.);
     margin-right: 60px;
@@ -38,16 +38,18 @@ h1{
     font-weight: 300;
     font-size : 28px;
     color: #fff;
+    font-family: viga;
    
 }
 input[type="text"],
 input[type="password"]{
     display: block;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    padding: 4px;
+    margin-top: 30px;
+    margin-bottom: -5px;
+    padding: 15px;
     width:220px;
-    height: 32px;
+    height: 30px;
     border: none;
     outline: none;
     border-bottom: 2px solid grey;
@@ -59,6 +61,7 @@ input[type="password"]{
     color: white;
 }
 input[type="submit"]{
+    margin-top: 34px;
     margin-bottom: 28px;
     width: 220px;
     height: 32px;
@@ -108,7 +111,7 @@ input[type="submit"]:focus{
     display: block;
     margin-bottom: auto;
     margin-top: 121px;
-    font-size: 15px;
+    font-size: 13px;
     background-color: rgba(0,0,0,0);
     padding: 11px;
     text-align: center;
@@ -176,6 +179,7 @@ button{
     text-align: left;
     margin-bottom: 50px;
     font-weight: bold;
+    
 }
 
 
@@ -184,4 +188,23 @@ button{
     color: white;
     text-shadow: 5px 2px 2px #150666;
     font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+.typewrite{
+    font-size:25px;
+    position: absolute;
+    margin-top: -199px;
+    margin-left: 250px;
+    margin-right: auto;
+    font-family: Viga;
+    
+}
+
+.reg{
+    font-size: 30px;
+    font-family: Viga;
+    color: #fff;
+    margin-left: 250px; 
+    
 }
