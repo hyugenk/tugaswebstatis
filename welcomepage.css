@@ -5,7 +5,7 @@ body{
     color: #55acee;
     font-family: arial;
     font-weight: 300;
-    background: url("bg.png") no-repeat;
+    background: url("letter-bg.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -38,6 +38,7 @@ h1{
     font-weight: 300;
     font-size : 28px;
     color: #fff;
+    font-family: viga;
    
 }
 input[type="text"],
@@ -45,7 +46,7 @@ input[type="password"]{
     display: block;
     box-sizing: border-box;
     margin-bottom: 20px;
-    padding: 4px;
+    padding: 1px;
     width:220px;
     height: 32px;
     border: none;
@@ -108,7 +109,7 @@ input[type="submit"]:focus{
     display: block;
     margin-bottom: auto;
     margin-top: 121px;
-    font-size: 15px;
+    font-size: 13px;
     background-color: rgba(0,0,0,0);
     padding: 11px;
     text-align: center;
@@ -176,6 +177,7 @@ button{
     text-align: left;
     margin-bottom: 50px;
     font-weight: bold;
+    
 }
 
 
@@ -184,4 +186,19 @@ button{
     color: white;
     text-shadow: 5px 2px 2px #150666;
     font-family: 'Josefin Sans', sans-serif;
+   
 }
+
+.typewrite{
+    font-size:25px;
+    position: absolute;
+    margin-top: -154px;
+    margin-left: 250px;
+    margin-right: auto;
+    font-family: Viga;
+    
+}
+
+
+
+  
